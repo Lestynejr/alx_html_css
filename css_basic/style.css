@@ -1,5 +1,6 @@
 /* Make the page a vertical flexbox */
 body {
+    background-image: url("https://cdn.britannica.com/69/234469-050-B883797B/Rottweiler-dog.jpg");
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -27,4 +28,28 @@ aside {
 /* Ensure padding in base.css does not interfere */
 article, aside {
     box-sizing: border-box;
+}
+p{
+    color: purple;
+}
+
+h1{
+    color: navy;
+}
+h2{
+    color: navy;
+}
+h3{
+    color: navy;
+}
+table{
+    color:navy;
+}
+
+a:link {
+  color: blueviolet;
+}
+
+a:hover {
+  text-decoration:wavy;
 }
